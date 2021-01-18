@@ -1,0 +1,8 @@
+.depend
+*.o
+*.d
+*~
+data
+*.dat
+*.png
+._*
