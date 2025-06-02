@@ -14,7 +14,8 @@ set mytics 10
 set grid y
 set grid x
 set grid mx
-plot ['1960-01-01':'2020-01-01'] \
+set xrange ['1960-01-01':'2020-01-01']
+plot ['1960-01-01':'2021-01-01'] \
 'data' u 1:(\$6*1000) w l lw 0.5 lc 'gray' title '1 day', \
 'avr365.dat' u 1:(\$2*1000) w l lw 2 lc 'red' title '365 days avr'
 EOF

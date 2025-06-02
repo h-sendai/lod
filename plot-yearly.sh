@@ -27,7 +27,7 @@ gnuplot <<EOF
 EOF
 }
 
-for i in {1962..2018}; do
+for i in {1962..2021}; do
     echo $i
     plot_yearly $i
 done
