@@ -5,7 +5,7 @@ import sys
 import time
 
 def main():
-    filename = 'eopc04.62-now'
+    filename = 'eopc04.1962-now'
     f_in  = open(filename, 'r')
     f_out = open('data', 'w')
     for line in f_in:

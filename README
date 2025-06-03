@@ -1,5 +1,5 @@
 1. pull data from "URL":
-http://hpiers.obspm.fr/eoppc/eop/eopc04/eopc04.62-now
+https://hpiers.obspm.fr/eoppc/eop/eopc04/eopc04.1962-now
 2. run format-date.py3
    This program reads eopc04.62-now and writes to data
 3. run avr365.py.  This program reads "data" file and print
