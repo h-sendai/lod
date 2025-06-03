@@ -1,6 +1,6 @@
 all: data avr365.dat
 
-data: eopc04.62-now
+data: eopc04.1962-now
 	./format-date.py3
 
 avr365.dat: data
