@@ -18,7 +18,7 @@ gnuplot <<EOF
     set xlabel 'date'
     set ylabel 'ms'
     set yrange [-2:5]
-    plot 'data' u 1:(\$6*1000) w lp lc 'red' pt 5 ps 0.5 title "lod ($year)"
+    plot 'data' u 1:(\$11*1000) w lp lc 'red' pt 5 ps 0.5 title "lod ($year)"
     # 0 lw 2 lc -1 title ''
     #10 lw 2 lc -1 title '',   \
     #20 lw 2 lc -1 title '',   \
@@ -27,7 +27,7 @@ gnuplot <<EOF
 EOF
 }
 
-for i in {1962..2021}; do
+for i in {1962..2024}; do
     echo $i
     plot_yearly $i
 done

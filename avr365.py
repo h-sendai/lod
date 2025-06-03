@@ -21,7 +21,7 @@ def main():
         #lod  = e[5]
         tmp = {}
         tmp['date'] = e[0]
-        tmp['lod' ] = float(e[5])
+        tmp['lod' ] = float(e[10])
         tmp['mjd' ] = int(e[1])
         data_daily.append(tmp)
 
