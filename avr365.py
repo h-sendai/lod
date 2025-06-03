@@ -6,7 +6,7 @@ import time # for sleep
 
 def avr(data_daily, index):
     sum = 0.0
-    for i in xrange(index-365, index):
+    for i in range(index-365, index):
         sum += data_daily[i]['lod']
 
     return sum / 365.0
@@ -29,8 +29,8 @@ def main():
     
     first_day = 365
     last_day  = len(data_daily) - 365
-    for i in xrange(first_day, last_day):
-        print data_daily[i]['date'], avr(data_daily, i)
+    for i in range(first_day, last_day):
+        print(data_daily[i]['date'], avr(data_daily, i))
     
 if __name__ == '__main__':
     main()
