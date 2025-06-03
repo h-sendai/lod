@@ -9,4 +9,4 @@ https://hpiers.obspm.fr/eoppc/eop/eopc04/eopc04.1962-now
    ./plot-avr.sh
 
 5. Optional: yearly graph
-   ./plot/yearly.sh
+   ./plot-yearly.sh
